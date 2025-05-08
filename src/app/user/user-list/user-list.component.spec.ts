@@ -13,7 +13,7 @@ describe('UserListComponent', () => {
   beforeEach(async() => {
     await TestBed.configureTestingModule({
       declarations: [UserListComponent],
-      providers: [UserService]
+      providers: [UserService] // provide dependencies
     }).compileComponents(); // compile the component and its template
 
     fixture = TestBed.createComponent(UserListComponent);
